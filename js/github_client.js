@@ -53,5 +53,3 @@ function renderGists(gists){
     $('body').append(`<p>File Name:${Object.keys(gist.files)[0]} Description: ${gist.description}</p>`)
   })
 }
-
-//"12ea2a5790606a08ff77f1534cb75563bdc05398"
